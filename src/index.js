@@ -137,13 +137,13 @@ export function div(first, second) {
 }
 
 /**
- * Compute the division of two numbers
- * @param {Number} first First number to divide
- * @param {Number} second Second number to divide
- * @throws {Error} If the function is not called with two arguments
- * @throws {TypeError} If the first argument is not a number
- * @throws {TypeError} If the second argument is not a number
- * @return {Number} The division of the two numbers
+ * Compute the average from an array of numbers
+ * @param {Array<Number>} numbers The numbers
+ * @throws {Error} If the function is not called with one argument
+ * @throws {TypeError} If the first argument is not an array
+ * @throws {TypeError} If the first argument is not a array of numbers
+ * @throws {TypeError} If the first argument is not a array of integers
+ * @return {Number} The average
  */
 export function avg(numbers) {
     if (arguments.length !== 1) {
